@@ -515,6 +515,7 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
 
 
 }
+
 @media screen and (max-device-width: 400px){
 
     #sobre{
@@ -538,14 +539,20 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
 
     .whats{
         width: 350px;
-        margin-right: 10px;
+        margin-right: 20px;
     }    
     .gmail{
         width: 350px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     footer{
         width: 100%;
     }
+    #redes i{
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
 }
+}
+ 
