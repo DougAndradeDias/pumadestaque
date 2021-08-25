@@ -515,3 +515,37 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
 
 
 }
+@media screen and (max-device-width: 400px){
+
+    #sobre{
+        width: 100%;
+        height: 1500px;
+    }
+
+    #letra{
+        width: 350px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #imgcontat{
+        text-align: center;
+    }
+
+    #div-servico{
+        width: 350px;
+    }
+
+    .whats{
+        width: 350px;
+        margin-right: 10px;
+    }    
+    .gmail{
+        width: 350px;
+        margin-right: 10px;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
