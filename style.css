@@ -527,7 +527,11 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
         width: 350px;
         font-size: 1rem;
         text-align: center;
+    } 
+    #empresa-mvv{
+        text-align: center;
     }
+
 
     #imgcontat{
         text-align: center;
