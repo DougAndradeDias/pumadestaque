@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
+	font-size: 30px;
+    font-family: Staatliches;
+    color: white;
+}
+.formulario{
+	width: 60%;
+	height: 30%;
+	background-color: grey;
+	text-align: center;
+	margin: auto;
+}
+
+button{
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: black;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input{
+	width: 400px;
+	height: 20px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+textarea{
+	width: 400px;
+	height: 40px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+label{
+	display: inline-block;
+}
