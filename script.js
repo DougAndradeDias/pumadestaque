@@ -39,3 +39,21 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// DEPOIMENTOS FEITO COM O SWIPER
+const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    loop: true,
+
+    keyboard: true
+  });
