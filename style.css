@@ -424,9 +424,78 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 }
 
 
-/*Responsivo 1024px*/
-/*Criei um div chamada letra, na parte do sobre/empresa, pra alinhar o texto, 
-esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
+@media screen and (max-device-width: 1440px){
+    .navbar a {
+    font-size: 2rem;
+}
+    #font-conheca{
+        font-size: 5rem;
+    }
+    #subtitle{
+        font-size: 3rem;
+    }
+    #letra{
+        font-size: 1.5rem;
+    }
+    #img-sobre{
+        width: 150px;
+    }
+    .servicos h2{
+        font-size: 5rem;
+    }
+    .servicos p{
+        font-size: 1.5rem;
+    }
+
+    .servicos #subtitulo{
+        font-size: 3.1rem;
+    }
+    #orcamento1{
+        width: 700px;
+    }
+    #orcamento1 img{
+        width: 120px;
+        height: 120px;
+    }
+    #btn p{
+        font-size: 1.8rem;
+    }
+
+    .button{
+        width: 500px;
+        height: 70px;
+        font-size: 2rem;
+    }
+    #contat{
+        text-align: center;
+
+    }
+    .whats{
+        height: 170px;
+    }
+    .gmail{
+        height: 170px;
+    }
+    .icon{
+        width: 200px;
+    }
+    #imgcontat p{
+        font-size: 1.8rem;
+        margin: auto;
+
+    }
+    #maps{
+        margin-left: 40px;
+    }
+    footer p{
+        font-size: 2.2rem;
+
+    }
+    footer font{
+        font-size: 1.2rem;
+    }
+
+}
 @media screen and (max-device-width: 1024px){
         #sobre{
         width: 100%;
@@ -439,17 +508,21 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
         font-size: 2rem;
         margin: auto;
     }
-
+    #subtitle{
+        font-size: 3rem;
+    }
     #letra{
-            text-align: left;
-            margin-left: 10px;
-            margin-right: 10px;
-
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 5px;
+        }
+        #btn p{
+            font-size: 1.4rem;
         }
     #contat{
-        display: flex;
+        flex-direction: row;
         text-align: center;
-        margin-left: -300px;
+        margin-left: -10px;
     }
     #maps{
         margin-left: 25px;
@@ -503,12 +576,54 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
 }
 
 /*Responsivo 450px*/
+
+
+
+@media screen and (max-device-width: 420px){
+    #contat{
+    align-items: center;
+    }
+    .whats{
+        width: 350px;
+        margin-right: 20px;
+    }    
+    .gmail{
+        width: 350px;
+        margin-right: 20px;
+    }
+    #maps{
+        display: none;
+    }
+
+    }
+
+@media screen and (max-device-width: 770px){
+    #subtitle{
+        font-size:2rem;
+    }
+    #letra{
+        font-size:1rem ;
+        text-align: center;
+    }
+    #contat{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    #maps{
+        margin: auto;
+
+    }    
+    footer{
+        margin-top: 300px;
+        margin-bottom: 0px;
+    }       
+}
 @media screen and (max-device-width: 450px){
     body{
         width: 100%;
-    }
-    p{
-        font-size: 1.2rem;
     }
     .navbar{
         width: 100%;
@@ -518,7 +633,8 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
     }
     #sobre{
         width: 100%;
-        height: 1800px;
+        height: 100% ;
+
     }
     #letra{
         text-align: center;
@@ -532,12 +648,13 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
         flex-direction: column;
     }
     #contat{
-        display: flex;
         flex-direction: column;
         text-align: center;
-        margin-right: 20px;
     }
-
+    #imgcontat{
+    text-align: center;
+    margin-right: 40px;
+    }
     #servicos{
         display: flex;
         flex-direction: column;
@@ -575,12 +692,10 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
 
 
     footer{
-        width: 70vh;
-        margin-top: 50px;
+        width: 100%;
         margin-bottom: 0px;
+        margin-top: 0px;
     }
-
-
 
 }
 
@@ -588,43 +703,58 @@ esse tamanho tava quebrando a linha e eu quase quebrando o pc*/
 
     #sobre{
         width: 100%;
-        height: 1500px;
+        height: 100%;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+    }
+    #font-conheca{
+        font-size: 3.5rem;
+        margin: 0;
+        align-items: center;
+    }
+    #empresa{
+    align-items: center;
+    }
+    #empresa-mvv{
+        text-align: center;
     }
 
     #letra{
         width: 350px;
         font-size: 1rem;
         text-align: center;
-    } 
-    #empresa-mvv{
-        text-align: center;
     }
-
 
     #imgcontat{
         text-align: center;
     }
 
     #div-servico{
-        width: 350px;
+        width: 370px;
     }
-
+    #contat{
+        width: 100%;
+    }
+    #imgcontat{
+    text-align: center;
+    margin-left: 60px;
+    }
     .whats{
         width: 350px;
-        margin-right: 20px;
     }    
     .gmail{
         width: 350px;
-        margin-right: 20px;
     }
-
+    #maps{
+        display: none;
+    }
     footer{
         width: 100%;
     }
     #redes i{
     margin-right: 15px;
     margin-left: 5px;
-    margin-top: 10px;
 }
 }
  
