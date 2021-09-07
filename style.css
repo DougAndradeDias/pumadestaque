@@ -110,12 +110,11 @@ body{
 }
 
 #empresa{
+    list-style: none;
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin-top: 15px;
-    align-items: center;
-    vertical-align: middle;
+    justify-content: space-around;
 }
 
 #img-sobre{
