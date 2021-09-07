@@ -124,7 +124,6 @@ body{
 
 }
 #font-conheca{
-    text-align: center;
     font-size: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -711,7 +710,6 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     #font-conheca{
         font-size: 3.5rem;
         margin: 0;
-        align-items: center;
     }
     #empresa{
     align-items: center;
