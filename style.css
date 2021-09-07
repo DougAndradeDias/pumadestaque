@@ -103,6 +103,7 @@ body{
 #sobre{
     margin: 0;
     width: 100%;
+    text-align: center;
     height: 700px;
     line-height: 110px;
     background-color: white;
