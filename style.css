@@ -373,9 +373,14 @@ p{
     width: 400px;
     display: inline-block;
 }
+.whats p{
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
 
 .gmail p{
     margin-left: 20px;
+    font-size: 1.5rem;
 }
 /*Contatos*/
 
@@ -385,7 +390,7 @@ p{
 
 footer p{
     color: #ffe100;
-    font-size: 30px;
+    font-size: 2rem;
 }
 footer{
     background-color: #292929;
@@ -424,6 +429,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 }
 
 
+
 @media screen and (max-device-width: 1440px){
     .navbar a {
     font-size: 2rem;
@@ -447,8 +453,8 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
         font-size: 1.5rem;
     }
 
-    .servicos #subtitulo{
-        font-size: 3.1rem;
+    #subtitulo{
+        font-size: 3rem;
     }
     #orcamento1{
         width: 700px;
@@ -475,12 +481,13 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     }
     .gmail{
         height: 170px;
+        font-size: 1.8rem;
     }
     .icon{
         width: 200px;
     }
     #imgcontat p{
-        font-size: 1.8rem;
+        
         margin: auto;
 
     }
@@ -590,6 +597,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     .gmail{
         width: 350px;
         margin-right: 20px;
+        font-size: ;
     }
     #maps{
         display: none;
@@ -755,6 +763,39 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     #redes i{
     margin-right: 15px;
     margin-left: 5px;
+    }
 }
+
+@media screen and (max-device-width: 320px){
+
+    #empresa-mvv{
+        width: 100%;
+    }
+    #letra{
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
+    .servicos h2{
+        font-size: 4rem;
+    }
+    #div-servico{
+        width: 300px;
+    }
+    .servicos #subtitulo{
+        font-size: 2.3rem;
+    }
+    .whats{
+        width: 300px;
+
+    }
+    .gmail{
+     width: 300px;
+     font-size: 0.8rem;
+    }
+
 }
+
+}
+
  
