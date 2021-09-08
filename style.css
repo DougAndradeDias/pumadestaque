@@ -779,6 +779,9 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     .servicos h2{
         font-size: 4rem;
     }
+    .servicos p{
+        font-size: 1rem;
+    }
     #div-servico{
         width: 300px;
     }
