@@ -696,8 +696,11 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     }
 
     #div-servico{
-        width: 370px;
+        width: 350px;
     }
+    #subtitulo{
+        font-size: 2rem;
+    }    
     #contat{
         width: 100%;
     }
