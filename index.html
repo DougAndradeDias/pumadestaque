@@ -8,8 +8,9 @@
 
     <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-menu.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,16 +23,21 @@
 
 <body>
 
-
-    <header class="navbar">
-        <img id="logo" src="images/logo.png">
-        <nav id="menu">
-            <ul >
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviço</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+    <header>
+      <nav>
+        <a class="logo" href="/">PUMA - Destaque em Segurança</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
     </header>
 <br>
 <br>
@@ -263,6 +269,8 @@
         <br>
         <font style="color: white;">Lucas & Douglas</font>
     </footer>
+
+        <script src="mobile-navbar.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="script.js"></script>
