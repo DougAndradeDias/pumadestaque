@@ -380,7 +380,7 @@ p{
 
 .gmail p{
     margin-left: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 /*Contatos*/
 
@@ -786,7 +786,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
         width: 300px;
     }
     .servicos #subtitulo{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     .whats{
         width: 300px;
@@ -794,11 +794,33 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     }
     .gmail{
      width: 300px;
-     font-size: 0.8rem;
+     font-size: 0.5rem;
     }
 
 }
+@media screen and (max-device-width: 290px){
+    .servicos h2{
+        font-size: 3rem;
+    }
+    #div-servico{
+        width: 270px;
+    }
+    #subtitulo{
+        font-size: 2rem;
+    }
+    .whats{
+        width: 250px;
 
+    }
+    .gmail{
+     width: 250px;
+     font-size: 0.5rem;
+    }    
+    #redes i{
+    margin-right: 10px;
+    margin-left: 3px;
+    }
 }
+
 
  
