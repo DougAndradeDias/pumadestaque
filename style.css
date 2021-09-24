@@ -76,9 +76,10 @@ body{
 
 #img-sobre{
     width: 150px;
-    vertical-align: middle;
-    
-
+}
+#img-sobre1{
+    width: 200px;
+    height: 150px;
 }
 #font-conheca{
     font-size: 60px;
@@ -104,7 +105,7 @@ body{
 
 
 p{
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-left: auto;
     margin-right: auto;
     font-family: roboto slab;
@@ -134,26 +135,31 @@ p{
     border-bottom: 5px solid black;
 }
 #subtitulo{
-    font-size: 40px;
+    font-size: 50px;
     color: #CCCC00;    
     text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: roboto slab;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 #servicos{
     display: flex;
     flex-direction: row;
     margin: auto;
     margin-top: 15px;
-    align-items: center;
 }
 #div-servico{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-
 }
 #img-servico{
     width: 150px;
-    
+}
+.img-pri{
+    margin-bottom: 50px;
 }
 
 /*servicos*/
@@ -284,6 +290,13 @@ p{
 }
 
 /*Contatos*/
+.contatos h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 .icon{
     width: 100px;
     margin-left: 15px;
@@ -360,6 +373,20 @@ footer{
     margin-right: 30px;
     margin-left: 10px;
     margin-top: 20px;
+}
+#holerite{
+    color: white;
+}
+#holerite button{
+    border-radius: 10px;
+    border-color: black;
+    width: 200px;
+    background: orange;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 /*RODAPE*/
 
@@ -506,7 +533,15 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 @media screen and (max-device-width: 600px){
         #sobre{
         width: 100%;
-        height: 1600px;
+        height: 1400px;
+    }
+    .servicos{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    #div-servico{
+        width: 50%;
     }
 
     #letra{
@@ -527,7 +562,8 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
         height: 350px;
     }
     #maps{
-        margin-left: -30px;
+        text-align: center;
+        margin: auto;
 
     }
     #contat{
@@ -562,7 +598,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 
     }
 
-@media screen and (max-device-width: 770px){
+@media screen and (max-device-width: 820px){
     #subtitle{
         font-size:2rem;
     }
@@ -570,11 +606,17 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
         font-size:1rem ;
         text-align: center;
     }
-    #contat{
+    .servicos{
         align-items: center;
+    }
+    .contatos h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #contat{
         flex-direction: column;
         text-align: center;
-        margin: auto;
     }
 
     #maps{
@@ -661,6 +703,10 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
         margin-bottom: 0px;
         margin-top: 0px;
     }
+    footer p{
+        font-size: 1.1rem;
+
+    }
 
 }
 
@@ -720,6 +766,10 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     footer{
         width: 100%;
     }
+    footer p{
+        font-size: 1.1rem;
+
+    }
     #redes i{
     margin-right: 15px;
     margin-left: 5px;
@@ -755,6 +805,10 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     .gmail{
      width: 300px;
      font-size: 0.5rem;
+    }
+    footer p{
+        font-size: 1.1rem;
+
     }
 
 }
