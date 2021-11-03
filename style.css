@@ -1,7 +1,7 @@
-/*Criei um div chamada letra, na parte do sobre/empresa, pra alinhar o texto, 
+/*Criei um div chamada letra, na parte do sobre/empresa, pra alinhar o texto,
 esse tamanho tava quebrando a linha e eu quase quebrando o pc
 
-no tamanho 1024px, eu vi pelo inspecionar do google que é de laptop, mas tem outro tamanho lá, 
+no tamanho 1024px, eu vi pelo inspecionar do google que é de laptop, mas tem outro tamanho lá,
 da uma olhada e se quiser alterar, fica a vontade
 
 */
@@ -15,6 +15,7 @@ body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    font-family: Roboto Slab;
 
 }
 
@@ -25,10 +26,6 @@ body{
 
 }
 
-/*MENU*/
-
-
-/*MENU*/
 
 
 
@@ -47,7 +44,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: opacity 800ms;
+    transition: opacity 700ms;
 }
 
 #slider img.selecionado {
@@ -56,54 +53,57 @@ body{
 /*SLIDE*/
 
 
-/*Sobre a empresa. Missão, Visão e Valores*/
 #sobre{
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    height: 700px;
-    line-height: 110px;
-    background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #434343;
+  color: white;
 }
-
+#empresa img{
+  width: 200px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+}
 #empresa{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 50%;
 }
+.container-img{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.container-img img{
+  width: 500px;
+  height: 600px;
+  margin-left: 25%;
+  border-radius: 5px;
+}
+#text-empresa{
+  text-align: right;
 
-#img-sobre{
-    width: 150px;
 }
-#img-sobre1{
-    width: 200px;
-    height: 150px;
+#text-empresa p{
+  width: 400px;
+  font-size: 2rem;
+}
+#img-empresa{
+  text-align: right;
+  margin-right: 200px;
 }
 #font-conheca{
-    font-size: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 5rem;
     font-family: roboto slab;
-    text-align: center;
+    text-align: right;
 
 }
-
-#empresa-mvv{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#subtitle{
-    font-size: 40px;
-    color: red;    
-    text-align: center;
-}
-
-
 p{
     font-size: 1.3rem;
     margin-left: auto;
@@ -124,7 +124,7 @@ p{
 }
 
 .servicos h2{
-    font-size: 50px;
+    font-size: 5rem;
     font-family: roboto slab;
 }
 
@@ -135,8 +135,8 @@ p{
     border-bottom: 5px solid black;
 }
 #subtitulo{
-    font-size: 50px;
-    color: #CCCC00;    
+    font-size: 3rem;
+    color: #CCCC00;
     text-align: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -154,6 +154,9 @@ p{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+#div-servico p{
+font-size: 1.2rem;
 }
 #img-servico{
     width: 150px;
@@ -182,27 +185,27 @@ p{
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.5rem;
 }
- 
+
 #testimonials blockquote p {
   position: relative;
   text-indent: 1.875rem;
   margin-bottom: 1.5rem;
 }
- 
+
 #testimonials blockquote p span {
   font: 700 2.5rem serif;
   position: absolute;
   top: -0.5rem;
   left: -1.875rem;
-  color: #CCCC00;    
+  color: #CCCC00;
 }
- 
+
 #testimonials cite {
   display: flex;
   align-items: center;
   font-style: normal;
 }
- 
+
 #testimonials cite img {
   width: 3rem;
   height: 3rem;
@@ -210,7 +213,7 @@ p{
   clip-path: circle();
   margin-right: 0.5rem;
 }
- 
+
 .swiper-slide {
   height: auto;
   width: 100%;
@@ -226,7 +229,7 @@ p{
   height: 0.75rem;
   width: 0.75rem;
 }
- 
+
 .swiper-pagination-bullet-active {
   background: #ffe100;
 }
@@ -390,7 +393,7 @@ footer{
 }
 /*RODAPE*/
 
-/*Esse é o botão de subir ao topo, eu tirei ele do html, porque no resposivo ele tava zuando 
+/*Esse é o botão de subir ao topo, eu tirei ele do html, porque no resposivo ele tava zuando
 mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 
 #myBtn {
@@ -421,15 +424,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     #font-conheca{
         font-size: 5rem;
     }
-    #subtitle{
-        font-size: 3rem;
-    }
-    #letra{
-        font-size: 1.5rem;
-    }
-    #img-sobre{
-        width: 150px;
-    }
+
     .servicos h2{
         font-size: 5rem;
     }
@@ -471,7 +466,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
         width: 200px;
     }
     #imgcontat p{
-        
+
         margin: auto;
 
     }
@@ -489,16 +484,8 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 }
 @media screen and (max-device-width: 1024px){
         #sobre{
-        width: 100%;
+        width: 100%;}
 
-    }
-    #img-sobre{
-        width: 100px;
-    }
-        #empresa{
-        font-size: 2rem;
-        margin: auto;
-    }
     #subtitle{
         font-size: 3rem;
     }
@@ -528,106 +515,6 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     }
 }
 
-
-/*Responsivo 600px*/
-@media screen and (max-device-width: 600px){
-        #sobre{
-        width: 100%;
-        height: 1400px;
-    }
-    .servicos{
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    #div-servico{
-        width: 50%;
-    }
-
-    #letra{
-        text-align: center;
-    }
-        #empresa{
-        width: 100%;
-        flex-direction: column;
-    }
-        #contat{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-right: 20px;
-    }
-    iframe{
-        width: 500px;
-        height: 350px;
-    }
-    #maps{
-        text-align: center;
-        margin: auto;
-
-    }
-    #contat{
-        margin: 0;
-    }
-    footer{
-        width: 100%;
-        margin-top: 350px;
-    }
-}
-
-/*Responsivo 450px*/
-
-
-
-@media screen and (max-device-width: 420px){
-    #contat{
-    align-items: center;
-    }
-    .whats{
-        width: 350px;
-        margin-right: 20px;
-    }    
-    .gmail{
-        width: 350px;
-        margin-right: 20px;
-        font-size: ;
-    }
-    #maps{
-        display: none;
-    }
-
-    }
-
-@media screen and (max-device-width: 820px){
-    #subtitle{
-        font-size:2rem;
-    }
-    #letra{
-        font-size:1rem ;
-        text-align: center;
-    }
-    .servicos{
-        align-items: center;
-    }
-    .contatos h2{
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    #contat{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #maps{
-        margin: auto;
-
-    }    
-    footer{
-        margin-top: 300px;
-        margin-bottom: 0px;
-    }       
-}
 @media screen and (max-device-width: 450px){
     body{
         width: 100%;
@@ -638,22 +525,41 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     .inicio{
         width: 100%;
     }
+
     #sobre{
         width: 100%;
-        height: 100% ;
+        height: 700px;
+    }
+    #text-empresa{
+      width: 100%;
+    }
+    #text-empresa p{
+      width: 400px;
+      margin-left: -100px;
+    }
+    #font-conheca{
+      font-size: 4rem;
+    }
+    #empresa{
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
 
     }
-    #letra{
-        text-align: center;
+    #img-empresa{
+      margin: auto;
     }
+    #text-empresa{
+      text-align: center;
+      width: 90%;
+      height: 50px;
+    }
+
+
     .servicos{
         width: 100%;
     }
-    #empresa{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
+
     #contat{
         flex-direction: column;
         text-align: center;
@@ -709,44 +615,160 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     }
 
 }
-
-@media screen and (max-device-width: 400px){
-
+@media screen and (max-device-width: 420px){
     #sobre{
+    width: 100%;
+    height: 900px;
+  }
+  #empresa{
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+
+  }
+  #img-empresa{
+    margin: auto;
+  }
+  #text-empresa{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+    #text-empresa p{
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+    }
+    .container-img{
+      display: none;
+    }
+    #div-servico{
+        width: 400px;
+    }
+    #contat{
+    align-items: center;
+    }
+    .whats{
+        width: 350px;
+        margin-right: 20px;
+    }
+    .gmail{
+        width: 350px;
+        margin-right: 20px;
+        font-size: ;
+    }
+    #maps{
+        display: none;
+    }
+
+    }
+
+/*Responsivo 600px*/
+@media screen and (max-device-width: 600px){
+        #sobre{
         width: 100%;
-        height: 100%;
+        height: 1000px;
+    }
+    .servicos{
+        width: 100%;
         text-align: center;
-        margin: auto;
         align-items: center;
     }
+
+    .container-img{
+      display: none;
+    }
+    #letra{
+        text-align: center;
+    }
+
+        #contat{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 20px;
+    }
+    iframe{
+        width: 500px;
+        height: 350px;
+    }
+    #maps{
+        text-align: center;
+        margin: auto;
+
+    }
+    #contat{
+        margin: 0;
+    }
+    footer{
+        width: 100%;
+        margin-top: 350px;
+    }
+}
+
+/*Responsivo 450px*/
+
+
+
+
+@media screen and (max-device-width: 820px){
+    #subtitle{
+        font-size:2rem;
+    }
+
+    .servicos{
+        align-items: center;
+    }
+    .contatos h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #contat{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #maps{
+        margin: auto;
+
+    }
+    footer{
+        margin-top: 300px;
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-device-width: 400px){
+      #sobre{
+      width: 100%;
+      height: 800px;
+    }
+
     #font-conheca{
         font-size: 3.5rem;
         margin: 0;
         align-items: center;
     }
-    #empresa{
-    align-items: center;
+    #text-empresa p{
+      width: 350px;
+      margin-left: -90px;
     }
-    #empresa-mvv{
-        text-align: center;
-    }
-
-    #letra{
-        width: 350px;
-        font-size: 1rem;
-        text-align: center;
-    }
-
     #imgcontat{
         text-align: center;
     }
-
+    .servicos h2{
+      font-size: 4rem;
+    }
     #div-servico{
         width: 350px;
     }
+
     #subtitulo{
-        font-size: 2rem;
-    }    
+        font-size: 2.8rem;
+    }
     #contat{
         width: 100%;
     }
@@ -756,7 +778,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     }
     .whats{
         width: 350px;
-    }    
+    }
     .gmail{
         width: 350px;
     }
@@ -777,15 +799,17 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 }
 
 @media screen and (max-device-width: 320px){
-
-    #empresa-mvv{
-        width: 100%;
-    }
-    #letra{
-        margin: auto;
-        text-align: center;
-        width: 90%;
-    }
+  #text-empresa{
+    width: 100%;
+    margin-bottom: 200px;
+  }
+  #text-empresa p{
+    width: 300px;
+    margin-left: -80px;
+  }
+  #sobre{
+    height: 1000px;
+  }
     .servicos h2{
         font-size: 4rem;
     }
@@ -795,8 +819,11 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     #div-servico{
         width: 300px;
     }
+    #div-servico p{
+        font-size: 1.3rem;
+    }
     .servicos #subtitulo{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .whats{
         width: 300px;
@@ -813,14 +840,38 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 
 }
 @media screen and (max-device-width: 290px){
-    .servicos h2{
-        font-size: 3rem;
+  #sobre{
+  width: 100%;
+  height: 1000px;
+  margin: auto;
+}
+  #empresa{
+    flex-direction: column;
+    margin:
+  }
+  #text-empresa{
+    width: 100%;
+    margin-bottom: 200px;
+  }
+  #text-empresa p{
+    width: 250px;
+    margin-left: -60px;
+  }
+  #img-empresa{
+    text-align: center;
+    margin-right: 20px;
+  }
+  .servicos h2{
+      font-size: 3rem;
+    }
+    #subtitulo{
+      font-size: 2rem;
     }
     #div-servico{
         width: 270px;
     }
-    #subtitulo{
-        font-size: 2rem;
+    #div-servico p{
+        font-size: 1.3rem;
     }
     .whats{
         width: 250px;
@@ -829,12 +880,9 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     .gmail{
      width: 250px;
      font-size: 0.5rem;
-    }    
+    }
     #redes i{
     margin-right: 10px;
     margin-left: 3px;
     }
 }
-
-
- 

@@ -32,10 +32,10 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -46,45 +46,35 @@
 <br>
     <section class="inicio">
         <div id="slider">
-            <img class="selecionado" src="./images/imagem1.jpg" alt="">
-            <img src="./images/imagem2.jpg" alt="">
-            <img src="./images/imagem3.jpg" alt="">
-            <img src="./images/imagem4.jpg" alt="">
+            <img class="selecionado" src="./images/imagem1.jpeg" alt="">
+            <img src="./images/imagem2.jpeg" alt="">
+            <img src="./images/imagem4.jpeg" alt="">
         </div>
     </section>
-
     <section id="sobre">
-        <font id="font-conheca"> Conheça a Puma </font>
+        <font id="font-conheca"> Sobre a PUMA</font>
+      <div class="row">
+
+        <div class="container-img">
+          <img id="container-img" src="images/imgsobre.jpeg" alt="">
+        </div>
+
 
         <div id="empresa">
-            <div id="empresa-mvv">
-
-                <img id="img-sobre" src="images/missao.png" alt="Missão">
-
-                <p id="subtitle">Missão</p>
-
-                <p id="letra">Otimiza os serviços de portaria, limpeza e monitoramento com profissionais altamente qualificados. Trazer para nossos clientes segurança, confiança e comodidade do acesso remoto ás câmeras de monitoramento, oferecendo tambem uma frota de carros e moto para apoio operacional.</p>
+            <div id="img-empresa">
+            <img  class="img-empresa" src="./images/logo.png" alt="">
             </div>
 
-            <div id="empresa-mvv">
+            <div id="text-empresa">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+              placeat odit, accusamus ducimus voluptatum alias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+              placeat odit, accusamus ducimus voluptatum alias
+            </p>
 
-                <img id="img-sobre" src="images/visao.png" alt="visão">
-
-                <p id="subtitle">Visão</p>
-
-                <p id="letra">Ser referencia em nossa área de atuação e atender cada cliente com suas devidas particularidades, formando assim um relacionamento integro,respeitoso e acima de tudo, leal.</p>
             </div>
-
-            <div id="empresa-mvv" class="valores">
-
-                <img id="img-sobre1" src="images/valores.png" alt="valores">
-
-                <p id="subtitle">Valores</p>
-
-                <p id="letra">Todo homem tem dentro de si a responsabilidade de afastar-se dos caminhos inseguros. Este é o seu dever para consigo mesmo, sua família, seus colegas de trabalho.</p>
-            </div>
-
         </div>
+      </div>
 
     </section>
 
@@ -94,43 +84,43 @@
         <div id="servicos">
             <div id="div-servico" class="borda-servicos">
                 <img id="img-servico" src="images/portaria.png" alt="Portaria">
-                <p id="subtitulo">Portaria</p>
+                <h4 id="subtitulo">Portaria</h4>
                 <p>Todo homem tem dentro de si a responsabilidade de afastar-se dos caminhos inseguros. Este é o seu dever para consigo mesmo, sua família, seus colegas de trabalho.</p>
             </div>
 
             <div id="div-servico" class="borda-servicos">
                 <img id="img-servico" class="img-pri"  src="images/monitoramento.png" alt="Monitoramento">
-                <p id="subtitulo">Monitoramento</p>
+                <h4 id="subtitulo">Monitoramento</h4 >
                 <p>Todo homem tem dentro de si a responsabilidade de afastar-se dos caminhos inseguros. Este é o seu dever para consigo mesmo, sua família, seus colegas de trabalho.</p>
             </div>
 
         </div>
 
-        <div id="servicos"> 
+        <div id="servicos">
             <div id="div-servico" class="borda-servicos">
                 <img id="img-servico" src="images/limpeza.png" alt="Limpeza">
-                <p id="subtitulo">Limpeza</p>
+                <h4  id="subtitulo">Limpeza</h4 >
                 <p>Todo homem tem dentro de si a responsabilidade de afastar-se dos caminhos inseguros. Este é o seu dever para consigo mesmo, sua família, seus colegas de trabalho.</p>
             </div>
 
             <div id="div-servico" class="borda-servicos">
                 <img id="img-servico" src="images/manutencao.png" alt="Manutenção">
-                <p id="subtitulo">Monitoramento</p>
+                <h4 id="subtitulo">Manutenção</h4 >
                 <p>Todo homem tem dentro de si a responsabilidade de afastar-se dos caminhos inseguros. Este é o seu dever para consigo mesmo, sua família, seus colegas de trabalho.</p>
             </div>
         </div>
     </section>
-    
+
     <!-- Depoimentos -->
     <section class="depoimentos">
         <section id="testimonials">
               <header>
                 <h2 id="subtitulo">Depoimentos de nossos clientes e parceiros</h2>
               </header>
-    
+
               <div class="testimonials swiper-container">
                 <div class="swiper-wrapper">
-    
+
                   <div class="testimonial swiper-slide">
                     <blockquote>
                       <p>
@@ -208,7 +198,7 @@
         </section>
     </section>
 
-    <section class="contatos">
+    <section class="contatos" id="contato">
         <div id="orcamento">
             <div id="orcamento1">
             <img src="images/orcamento.png">
@@ -221,21 +211,21 @@
         </div>
         </div>
 
-        
+
         <h2 >ENTRE EM CONTATO</h2>
         <center>
 
     <div id="contat" align="center">
-        
+
             <div id="imgcontat">
                 <div class="whats">
 
-                <img class="icon" src="./images/whatsapp.png" alt="">           
+                <img class="icon" src="./images/whatsapp.png" alt="">
                     <p>
                          (11) 93322-1100
                     </p>
                 </div>
-  
+
 <br>
             <div class="gmail">
                 <img  class="icon" src="./images/gmail.png" alt="">
@@ -255,7 +245,7 @@
     <br>
 
     <footer>
-        
+
         <p>PUMA DESTAQUE EM SEGURANÇA</p>
 
         <div id="redes" >
@@ -263,7 +253,7 @@
             <i class="fa fa-facebook fa-4x  aria-hidden=" true style="color: white;"></i>
             <i class="fa fa-instagram fa-4x  aria-hidden=" true style="color: white;"></i>
             <i class="fa fa-linkedin fa-4x aria-hidden=" true style="color: white;"></i>
-        </div> 
+        </div>
         <p id="holerite"> Se você é um dos nossos colaboradores, clique no botão.
             <a href="login/login.html"><button> Clique aqui</button></p></a>
         <br>
