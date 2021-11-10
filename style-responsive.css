@@ -1,0 +1,325 @@
+@media screen and (max-device-width: 290px){
+  #sobre{
+  width: 100%;
+  height: 1000px;
+  margin: auto;
+}
+  #empresa{
+    flex-direction: column;
+    width: 100%;
+  }
+  #text-empresa{
+    width: 100%;
+    margin-bottom: 200px;
+  }
+  #text-empresa p{
+    width: 250px;
+  }
+  #img-empresa{
+    text-align: center;
+    margin: auto;
+    width: 100%
+  }
+  .servicos h2{
+      font-size: 3rem;
+    }
+    #subtitulo{
+      font-size: 2rem;
+    }
+    #div-servico{
+        width: 270px;
+    }
+    #div-servico p{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (max-device-width: 320px){
+  #text-empresa{
+    width: 100%;
+    margin-bottom: 200px;
+  }
+  #text-empresa p{
+    width: 300px;
+  }
+  #sobre{
+    height: 1000px;
+  }
+    .servicos h2{
+        font-size: 4rem;
+    }
+    .servicos p{
+        font-size: 1rem;
+    }
+    #div-servico{
+        width: 300px;
+    }
+    #div-servico p{
+        font-size: 1.3rem;
+    }
+    .servicos #subtitulo{
+        font-size: 2.2rem;
+    }
+
+    footer p{
+        font-size: 1.1rem;
+
+    }
+
+}
+@media screen and (max-device-width: 400px){
+      #sobre{
+      width: 100%;
+      height: 800px;
+    }
+
+    #font-conheca{
+        font-size: 3.5rem;
+        margin: 0;
+        align-items: center;
+    }
+    #text-empresa p{
+      width: 350px;
+      padding: 0;
+    }
+    #imgcontat{
+        text-align: center;
+    }
+    .servicos h2{
+      font-size: 4rem;
+    }
+    #div-servico{
+        width: 350px;
+    }
+
+    #subtitulo{
+        font-size: 2.8rem;
+    }
+
+
+    footer{
+        width: 100%;
+    }
+    footer p{
+        font-size: 1.1rem;
+
+    }
+    #redes i{
+    margin-right: 15px;
+    margin-left: 5px;
+    }
+}
+
+@media screen and (max-device-width: 420px){
+    #sobre{
+    width: 100%;
+    height: 900px;
+  }
+  #empresa{
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+
+  }
+  #img-empresa{
+    margin: auto;
+  }
+  #text-empresa{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+    #text-empresa p{
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+    }
+    .container-img{
+      display: none;
+    }
+    #div-servico{
+        width: 400px;
+    }
+
+    }
+
+    @media screen and (max-device-width: 450px){
+        body{
+            width: 100%;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .inicio{
+            width: 100%;
+        }
+
+        #sobre{
+            width: 100%;
+            height: 700px;
+        }
+        #text-empresa{
+          width: 100%;
+        }
+        #text-empresa p{
+          width: 400px;
+        }
+        #font-conheca{
+          font-size: 4rem;
+        }
+        #empresa{
+          flex-direction: column;
+          text-align: center;
+          margin: auto;
+
+        }
+        #img-empresa{
+          margin: auto;
+        }
+        #text-empresa{
+          text-align: center;
+          width: 90%;
+          height: 50px;
+        }
+
+
+        .servicos{
+            width: 100%;
+        }
+
+        #servicos{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        footer{
+            width: 100%;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        footer p{
+            font-size: 1.1rem;
+
+        }
+
+    }
+
+    @media screen and (max-device-width: 600px){
+            #sobre{
+            width: 100%;
+            height: 1000px;
+        }
+        .servicos{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+    #servicos{
+      flex-direction: column;
+
+    }
+        .container-img{
+          display: none;
+        }
+        #letra{
+            text-align: center;
+        }
+
+        footer{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-device-width: 820px){
+        #subtitle{
+            font-size:2rem;
+        }
+    .container-img{
+    display: none;
+    }
+    #text-empresa p{
+      width: 500px;
+      font-size: 1.5rem;
+    }
+        .servicos{
+            align-items: center;
+    }
+        footer{
+            margin-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-device-width: 1024px){
+          #sobre{
+          width: 100%;
+          height: 700px;
+          }
+
+        #subtitle{
+            font-size: 3rem;
+        }
+        #letra{
+          text-align: center;
+          font-size: 1.2rem;
+          margin: 5px;
+        }
+        #container-img{
+          width: 400px;
+          height: 500px;
+          margin-left: 15%;
+          border-radius: 5px;
+        }
+
+        footer{
+          width: 100%;
+        }
+    }
+    @media screen and (max-device-width: 1440px){
+        .navbar a {
+        font-size: 2rem;
+    }
+        #font-conheca{
+            font-size: 5rem;
+        }
+        #div-servico{
+          width: 500px;
+          padding: 15px;
+        }
+        #div-servico p{
+          font-size: 2rem;
+        }
+        #img-servico{
+          width: 200px;
+        }
+        .servicos h2{
+            font-size: 5rem;
+        }
+        .servicos p{
+            font-size: 1.5rem;
+        }
+        #sobre{
+          height: 70vh;
+        }
+        #subtitulo{
+            font-size: 4rem;
+    }
+        #testimonials blockquote p {
+          font-size: 2rem;
+        }
+        cite{
+          font-size: 1.5rem;
+        }
+        footer p{
+            font-size: 2.2rem;
+
+        }
+        footer font{
+            font-size: 1.2rem;
+        }
+
+    }
