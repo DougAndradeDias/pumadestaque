@@ -1,161 +1,207 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-	overflow-y: hidden;
-	font-family: robot slab;
-	background-image: linear-gradient(335deg, #475b5b 0, #475453 16.67%, #464d4c 33.33%, #454545 50%, #433d3f 66.67%, #40363b 83.33%, #3d3037 100%);
+body {
+  overflow-y: hidden;
+  font-family: robot slab;
+  background-image: linear-gradient(
+    335deg,
+    #475b5b 0,
+    #475453 16.67%,
+    #464d4c 33.33%,
+    #454545 50%,
+    #433d3f 66.67%,
+    #40363b 83.33%,
+    #3d3037 100%
+  );
 }
-.inicio{
-	width: 100%;
-	height: 600px;
-	background-image: linear-gradient(335deg, #475b5b 0, #475453 16.67%, #464d4c 33.33%, #454545 50%, #433d3f 66.67%, #40363b 83.33%, #3d3037 100%);
-    text-align: left;
+.inicio {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(
+    335deg,
+    #475b5b 0,
+    #475453 16.67%,
+    #464d4c 33.33%,
+    #454545 50%,
+    #433d3f 66.67%,
+    #40363b 83.33%,
+    #3d3037 100%
+  );
+  text-align: left;
 }
-.cor{
-	width:90%;
-	height: 80vh;
-	background-image: radial-gradient(circle at 42.6% 91.96%, #ffff79 0, #ffee64 16.67%, #ffd74a 33.33%, #ffbd28 50%, #f1a200 66.67%, #e68b00 83.33%, #e07700 100%);
-	margin-top: 50px;
-	margin-bottom: auto;
-	margin-right: auto ;
-	margin-left: auto;
-	text-align: center;
-	border-radius: 10px;
-	display: flex;
+.cor {
+  width: 90%;
+  height: 80vh;
+  background-image: radial-gradient(
+    circle at 42.6% 91.96%,
+    #ffff79 0,
+    #ffee64 16.67%,
+    #ffd74a 33.33%,
+    #ffbd28 50%,
+    #f1a200 66.67%,
+    #e68b00 83.33%,
+    #e07700 100%
+  );
+  margin-top: 30px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
 }
-#login{
-	margin-right: 20%;
-	width: 50%;
-	margin-left: 20px;
+#login p {
+  text-align: center;
 }
-h1{
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 10px;
+#login {
+  margin-right: 20%;
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 40px;
 }
-#nome-login{
-	outline: none;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	width: 100%;
-	color: black;
-	background: transparent;
-	border-color: white;
-	border-top: 0;
-	border-left:0;
-	border-right:0 ;
-	font-size: 1rem;
-	font-family: roboto Slab;
-	text-align: center;
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 2rem;
 }
-p{
-	font-size: 20px;
-	margin-bottom: -10px;
-	font-family: Roboto slab;
+#nome-login {
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  color: black;
+  background: transparent;
+  border-color: white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 1rem;
+  font-family: roboto Slab;
+  text-align: center;
 }
-textarea{
-	width: 100%;
-	height: 10vh;
-	border-radius: 10px;
-	resize: none;
-	border: none;
-	font-size: 1rem;
-	font-family: roboto slab;
+p {
+  font-size: 20px;
+  margin-bottom: -10px;
+  font-family: Roboto slab;
 }
-#mensagem{
-	font-size: 20px;
-	margin-bottom: -10px;
-	margin-top: -10px;
+textarea {
+  width: 100%;
+  height: 10vh;
+  border-radius: 10px;
+  resize: none;
+  border: none;
+  font-size: 1rem;
+  font-family: roboto slab;
 }
-#nome-login::placeholder{
-	color: black;
-	font-size: 1rem;
+#mensagem {
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+#nome-login::placeholder {
+  color: black;
+  font-size: 1rem;
 }
 
 .button-login {
-	border-radius: 10px;
-	border-color: black;
-	width: 200px;
-	background: transparent;
-	height: 50px;
-	font-size: 20px;
-	cursor: pointer;
-	text-decoration: none;
-	text-transform: uppercase;
-	margin-top: 10px;
+  border-radius: 10px;
+  border-color: black;
+  width: 200px;
+  background: transparent;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .button-login:hover {
-	background: white;
+  background: white;
 }
 
-#maps{
-margin-left: -80px;
-margin-top: auto;
-margin-bottom: auto;
-margin-right: 30px;
+#maps {
+  width: 50%;
+  margin-left: -80px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 30px;
 }
-#local{
-	margin-bottom: 30px;
-	text-align: center;
-
+iframe {
+  border-radius: 10px;
 }
-@media screen and (max-device-width: 320px){
-	.cor{
-		display: flex;
-		flex-direction: column;
-		margin: auto;
-		margin-top: 20px;
-		height: 100%;
-	}
-	#login{
-		text-align: center;
-		margin: auto;
-	}
-	h1{
-		text-align: center;
-		font-size: 1.6rem;
-		margin-top: 0;
-	}
-	#nome-login{
-		width: 200px;
-		margin-left: -30px;
-
-	}
-	#maps{
-		display: none;
-	}
-	button{
-		margin-left: -40px;
-	}
-	textarea{
-		width: 200px;
-		margin-left: -40px;
-	}
+#local {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-@media screen and (max-device-width: 400px){
-	iframe{
-		display: none;
-	}
-	.cor{
-		display: flex;
-		flex-direction: column;
-		margin: auto;
-		margin-top: 20px;
-		height: 100%;
-	}
-	#login{
-		text-align: center;
-		margin: auto;
-	}
-	textarea{
-		width: 200px;
-		margin-left: -20px;
-	}
-	button{
-		margin-left: -20px;
-	}
+@media screen and (max-device-width: 450px) {
+  .cor {
+    height: 200px;
+  }
+  input {
+    margin-left: -25px;
+  }
+  textarea {
+    margin-left: -25px;
+  }
+  button {
+    margin-left: -25px;
+  }
+}
+@media screen and (max-device-width: 767px) {
+  .cor {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    height: 80vh;
+  }
+  #login {
+    text-align: center;
+    margin: auto;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  #nome-login {
+    width: 200px;
+  }
+  #maps {
+    display: none;
+  }
+  textarea {
+    width: 200px;
+  }
+}
+
+@media screen and (max-device-width: 1440px) {
+  #login {
+    margin-top: 5px;
+  }
+  iframe {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  #login {
+    margin-top: 10px;
+  }
+  #nome-login {
+    margin-bottom: 15px;
+  }
+  #local {
+    font-size: 1rem;
+  }
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
 }
