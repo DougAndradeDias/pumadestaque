@@ -7,172 +7,160 @@ da uma olhada e se quiser alterar, fica a vontade
 */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    font-family: Roboto Slab;
-
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Roboto Slab;
 }
 
-.inicio{
-    margin: 0;
-    height: 700px;
-    width: 100%;
-
+.inicio {
+  margin: 0;
+  height: 700px;
+  width: 100%;
 }
-
-
-
 
 /*SLIDE*/
 
- #slider {
-    margin-top: -105px;
-    width: 100%;
-    height: 100%;
-    position: relative;
+#slider {
+  margin-top: -105px;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 #slider img {
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: opacity 700ms;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 700ms;
 }
 
 #slider img.selecionado {
-    opacity: 1;
+  opacity: 1;
 }
 /*SLIDE*/
 
-
-#sobre{
+#sobre {
   text-align: center;
   width: 100%;
   height: 100vh;
   background-color: #434343;
   color: white;
 }
-#empresa img{
+#empresa img {
   width: 200px;
   text-align: center;
 }
-.row{
+.row {
   display: flex;
   flex-direction: row;
   text-align: center;
-
 }
-#empresa{
+#empresa {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 100%;
 }
-.container-img{
+.container-img {
   width: 100%;
   margin: auto;
   text-align: left;
 }
-#container-img{
+#container-img {
   width: 500px;
   height: 600px;
   margin-left: 25%;
   border-radius: 5px;
 }
-#text-empresa{
+#text-empresa {
   margin: auto;
-
 }
-#text-empresa p{
+#text-empresa p {
   width: 400px;
   font-size: 2rem;
   font-family: roboto slab;
   line-height: 30px;
 }
-#img-empresa{
+#img-empresa {
   text-align: center;
 }
-#font-conheca{
-    font-size: 5rem;
-    font-family: roboto slab;
-
+#font-conheca {
+  font-size: 5rem;
+  font-family: roboto slab;
 }
-
 
 /*Fim do Sobre*/
 
-
 /*servicos*/
-.servicos{
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    background-color: #d0d0d0;
+.servicos {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: #d0d0d0;
 }
 
-.servicos h2{
-    font-size: 5rem;
-    font-family: roboto slab;
+.servicos h2 {
+  font-size: 5rem;
+  font-family: roboto slab;
 }
 
-.borda-servicos{
-    border-top: 0px solid black;
-    border-left: 0px solid black;
-    border-right: 5px solid black;
-    border-bottom: 5px solid black;
+.borda-servicos {
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 }
-#subtitulo{
-    font-size: 3rem;
-    color: #CCCC00;
-    text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    font-family: roboto slab;
-    margin-top: 10px;
-    margin-bottom: 20px;
+#subtitulo {
+  font-size: 3rem;
+  color: #cccc00;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: roboto slab;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-#servicos{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    margin-top: 15px;
+#servicos {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 15px;
 }
-#div-servico{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+#div-servico {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
-#div-servico p{
-font-size: 1.2rem;
+#div-servico p {
+  font-size: 1.2rem;
 }
-#img-servico{
-    width: 150px;
+#img-servico {
+  width: 150px;
 }
-.img-pri{
+.img-pri {
   margin-bottom: 60px;
 }
 /*servicos*/
 
-
 /* Depoimentos */
 #testimonials {
-    background: #d0d0d0;
-    position: relative;
-    overflow: hidden;
-  }
+  background: #d0d0d0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
 
-#testimonials #subtitulo{
-    margin-top: 3.2rem;
-    padding: 15px;
-
+#testimonials #subtitulo {
+  margin-top: 3.2rem;
+  padding: 15px;
 }
 
 #testimonials blockquote {
@@ -180,6 +168,8 @@ font-size: 1.2rem;
   padding: 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.5rem;
+  margin: auto;
+  width: 82%;
 }
 
 #testimonials blockquote p {
@@ -193,7 +183,7 @@ font-size: 1.2rem;
   position: absolute;
   top: -0.5rem;
   left: -1.875rem;
-  color: #CCCC00;
+  color: #cccc00;
 }
 
 #testimonials cite {
@@ -216,9 +206,15 @@ font-size: 1.2rem;
   padding-bottom: 4rem;
 }
 
-.swiper-button-prev,
+.swiper-button-prev {
+  color: #030303;
+  margin-top: 30px;
+  margin-left: 20px;
+}
 .swiper-button-next {
-  color: #ffe100;
+  color: #030303;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 
 .swiper-pagination-bullet {
@@ -231,25 +227,23 @@ font-size: 1.2rem;
 }
 /* Depoimentos */
 
-
-
 /*RODAPE*/
 
-footer p{
-    color: #ffe100;
-    font-size: 2rem;
+footer p {
+  color: #ffe100;
+  font-size: 2rem;
 }
-footer{
-    background-color: #292929;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
+footer {
+  background-color: #292929;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
 
-#redes i{
-    margin-right: 30px;
-    margin-left: 10px;
-    margin-top: 20px;
+#redes i {
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 /*RODAPE*/
@@ -257,362 +251,352 @@ footer{
 /*Esse é o botão de subir ao topo, eu tirei ele do html, porque no resposivo ele tava zuando
 mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 
-
-
-
-@media screen and (max-device-width: 1440px){
-    .navbar a {
+@media screen and (max-device-width: 1440px) {
+  .navbar a {
     font-size: 2rem;
+  }
+  #font-conheca {
+    font-size: 5rem;
+  }
+  #div-servico {
+    width: 500px;
+    padding: 15px;
+  }
+  #div-servico p {
+    font-size: 2rem;
+  }
+  #img-servico {
+    width: 200px;
+  }
+  .servicos h2 {
+    font-size: 5rem;
+  }
+  .servicos p {
+    font-size: 1.5rem;
+  }
+  #sobre {
+    height: 110vh;
+  }
+  #subtitulo {
+    font-size: 4rem;
+  }
+  #testimonials blockquote p {
+    font-size: 2rem;
+  }
+  footer p {
+    font-size: 2.2rem;
+  }
+  footer font {
+    font-size: 1.2rem;
+  }
 }
-    #font-conheca{
-        font-size: 5rem;
-    }
-    #div-servico{
-      width: 500px;
-      padding: 15px;
-    }
-    #div-servico p{
-      font-size: 2rem;
-    }
-    #img-servico{
-      width: 200px;
-    }
-    .servicos h2{
-        font-size: 5rem;
-    }
-    .servicos p{
-        font-size: 1.5rem;
-    }
-    #sobre{
-      height: 100vh;
-    }
-    #subtitulo{
-        font-size: 4rem;
+@media screen and (max-device-width: 1024px) {
+  #sobre {
+    width: 100%;
+    height: 700px;
+  }
+
+  #subtitle {
+    font-size: 3rem;
+  }
+  #letra {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 5px;
+  }
+  #container-img {
+    width: 400px;
+    height: 500px;
+    margin-left: 15%;
+    border-radius: 5px;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
-    #testimonials blockquote p {
-      font-size: 2rem;
-    }
-    footer p{
-        font-size: 2.2rem;
-
-    }
-    footer font{
-        font-size: 1.2rem;
-    }
-
-}
-@media screen and (max-device-width: 1024px){
-      #sobre{
-      width: 100%;
-      height: 700px;
-      }
-
-    #subtitle{
-        font-size: 3rem;
-    }
-    #letra{
-      text-align: center;
-      font-size: 1.2rem;
-      margin: 5px;
-    }
-    #container-img{
-      width: 400px;
-      height: 500px;
-      margin-left: 15%;
-      border-radius: 5px;
-    }
-
-    footer{
-      width: 100%;
-    }
-}
-
-
 
 /*Responsivo 600px*/
-@media screen and (max-device-width: 600px){
-        #sobre{
-        width: 100%;
-        height: 1000px;
-    }
-    .servicos{
-        width: 100%;
-        text-align: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-#servicos{
-  flex-direction: column;
+@media screen and (max-device-width: 600px) {
+  #sobre {
+    width: 100%;
+    height: 1000px;
+  }
+  .servicos {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #servicos {
+    flex-direction: column;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  .container-img {
+    display: none;
+  }
+  #letra {
+    text-align: center;
+  }
 
-}
-    .container-img{
-      display: none;
-    }
-    #letra{
-        text-align: center;
-    }
-
-    footer{
-        width: 100%;
-    }
+  footer {
+    width: 100%;
+  }
 }
 
 /*Responsivo 450px*/
 
-
-
-
-@media screen and (max-device-width: 820px){
-    #subtitle{
-        font-size:2rem;
-    }
-    .container-img{
+@media screen and (max-device-width: 820px) {
+  #subtitle {
+    font-size: 2rem;
+  }
+  .container-img {
     display: none;
-    }
-    #text-empresa p{
-      width: 500px;
-      font-size: 1.5rem;
-    }
-    #servicos{
-      flex-direction: column;
-
-    }
-    footer{
-      margin-bottom: 0px;
-        }
-    }
-
-    @media screen and (max-device-width: 450px){
-        body{
-            width: 100%;
-        }
-        .navbar{
-            width: 100%;
-        }
-        .inicio{
-            width: 100%;
-        }
-
-        #sobre{
-            width: 100%;
-            height: 700px;
-        }
-        #text-empresa{
-          width: 100%;
-        }
-        #text-empresa p{
-          width: 400px;
-          font-size: 1.5rem;
-        }
-        #font-conheca{
-          font-size: 4rem;
-        }
-        #empresa{
-          flex-direction: column;
-          text-align: center;
-          margin: auto;
-
-        }
-        #subtitulo{
-          font-size: 2.8rem;
-        }
-        #div-servico{
-            width: 320px;
-        }
-        #div-servico p{
-          font-size: 1.2rem;
-        }
-        #img-empresa{
-          margin: auto;
-        }
-        #text-empresa{
-          text-align: center;
-          width: 90%;
-          height: 50px;
-        }
-
-
-        .servicos{
-            width: 100%;
-        }
-
-        #servicos{
-            display: flex;
-            flex-direction: column;
-        }
-
-
-        footer{
-            width: 100%;
-            margin-bottom: 0px;
-            margin-top: 0px;
-        }
-        footer p{
-            font-size: 1.1rem;
-
-        }
-
-    }
-    @media screen and (max-device-width: 420px){
-        #sobre{
-        width: 100%;
-        height: 900px;
-      }
-      #empresa{
-        flex-direction: column;
-        text-align: center;
-        margin: auto;
-
-      }
-      #img-empresa{
-        margin: auto;
-      }
-      #text-empresa{
-        margin: auto;
-        width: 90%;
-        text-align: center;
-      }
-      #subtitulo{
-        font-size: 2.5rem;
-      }
-        #text-empresa p{
-          margin: auto;
-          width: 100px;
-          height: 100px;
-          text-align: center;
-        }
-        .container-img{
-          display: none;
-        }
-        #div-servico{
-            width: 400px;
-        }
-
-        }
-@media screen and (max-device-width: 400px){
-      #sobre{
-      width: 100%;
-      height: 800px;
-    }
-
-    #font-conheca{
-        font-size: 3.5rem;
-        margin: 0;
-        align-items: center;
-    }
-    #text-empresa p{
-      width: 350px;
-      padding: 0;
-    }
-    #img-servico{
-        width: 150px;
-    }
-    #testimonials blockquote p {
-      font-size: 1.3rem;
-    }
-    .servicos h2{
-      font-size: 4rem;
-    }
-    #div-servico{
-        width: 320px;
-    }
-    #div-servico p{
-      font-size: 1.2rem;
-    }
-
-    #subtitulo{
-        font-size: 2.8rem;
-    }
-
-
-    footer{
-        width: 100%;
-    }
-    footer p{
-        font-size: 1.1rem;
-
-    }
-    #redes i{
-    margin-right: 15px;
-    margin-left: 5px;
-    }
-    footer a{
-      font-size: 1rem;
-    }
+  }
+  #text-empresa p {
+    width: 500px;
+    font-size: 1.5rem;
+  }
+  #servicos {
+    flex-direction: column;
+  }
+  footer {
+    margin-bottom: 0px;
+  }
 }
 
-@media screen and (max-device-width: 320px){
-  #text-empresa{
+@media screen and (max-device-width: 450px) {
+  body {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .inicio {
+    width: 100%;
+  }
+
+  #sobre {
+    width: 100%;
+    height: 700px;
+  }
+  #text-empresa {
+    width: 100%;
+  }
+  #text-empresa p {
+    width: 400px;
+    font-size: 1.5rem;
+  }
+  #font-conheca {
+    font-size: 4rem;
+  }
+  #empresa {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  #subtitulo {
+    font-size: 2.8rem;
+  }
+  #div-servico {
+    width: 320px;
+  }
+  #div-servico p {
+    font-size: 1.2rem;
+  }
+  #img-empresa {
+    margin: auto;
+  }
+  #text-empresa {
+    text-align: center;
+    width: 90%;
+    height: 50px;
+  }
+
+  .servicos {
+    width: 100%;
+  }
+
+  #servicos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  footer p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-device-width: 420px) {
+  #sobre {
+    width: 100%;
+    height: 900px;
+  }
+  #empresa {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  #img-empresa {
+    margin: auto;
+  }
+  #text-empresa {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+  #subtitulo {
+    font-size: 2.5rem;
+  }
+  #text-empresa p {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
+  .container-img {
+    display: none;
+  }
+  #div-servico {
+    width: 400px;
+  }
+}
+@media screen and (max-device-width: 400px) {
+  #sobre {
+    width: 100%;
+    height: 800px;
+  }
+
+  #font-conheca {
+    font-size: 3.5rem;
+    margin: 0;
+    align-items: center;
+  }
+  #text-empresa p {
+    width: 350px;
+    padding: 0;
+  }
+  #img-servico {
+    width: 150px;
+  }
+  #testimonials blockquote {
+    width: 80%;
+  }
+  #testimonials blockquote p {
+    font-size: 1.3rem;
+  }
+  .servicos h2 {
+    font-size: 4rem;
+  }
+  #div-servico {
+    width: 320px;
+  }
+  #div-servico p {
+    font-size: 1.2rem;
+  }
+
+  #subtitulo {
+    font-size: 2.8rem;
+  }
+
+  footer {
+    width: 100%;
+  }
+  footer p {
+    font-size: 1.1rem;
+  }
+  #redes i {
+    margin-right: 15px;
+    margin-left: 5px;
+  }
+  footer a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-device-width: 320px) {
+  #text-empresa {
     width: 100%;
     margin-bottom: 200px;
   }
-  #text-empresa p{
+  #text-empresa p {
     width: 300px;
   }
-  #sobre{
+  #sobre {
     height: 800px;
   }
-    .servicos h2{
-        font-size: 4rem;
-    }
-    .servicos p{
-        font-size: 1rem;
-    }
-    #div-servico{
-        width: 280px;
-    }
-    #img-servico{
-      width: 150px;
-    }
-    #div-servico p{
-        font-size: 1.3rem;
-    }
-    .servicos #subtitulo{
-        font-size: 2.2rem;
-    }
+  #testimonials blockquote {
+    width: 80%;
+  }
+  .servicos h2 {
+    font-size: 4rem;
+  }
+  .servicos p {
+    font-size: 1rem;
+  }
+  #div-servico {
+    width: 280px;
+  }
+  #img-servico {
+    width: 150px;
+  }
+  #div-servico p {
+    font-size: 1.3rem;
+  }
+  .servicos #subtitulo {
+    font-size: 2.2rem;
+  }
 
-    footer p{
-        font-size: 1.1rem;
-
-    }
-
+  footer p {
+    font-size: 1.1rem;
+  }
 }
-@media screen and (max-device-width: 290px){
-  #sobre{
-  width: 100%;
-  height: 1000px;
-  margin: auto;
-}
-  #empresa{
+@media screen and (max-device-width: 290px) {
+  #sobre {
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  #empresa {
     flex-direction: column;
     width: 100%;
   }
-  #text-empresa{
+  #text-empresa {
     width: 100%;
     margin-bottom: 200px;
   }
-  #text-empresa p{
+  #text-empresa p {
     width: 250px;
   }
-  #img-empresa{
+  #testimonials blockquote {
+    width: 60%;
+  }
+  #img-empresa {
     text-align: center;
     margin: auto;
-    width: 100%
+    width: 100%;
   }
-  .servicos h2{
-      font-size: 3rem;
-    }
-    #subtitulo{
-      font-size: 2rem;
-    }
-    #div-servico{
-        width: 250px;
-    }
-    #div-servico p{
-        font-size: 1.3rem;
-    }
-    footer a{
-      font-size: 0.8rem;
-    }
+  .servicos h2 {
+    font-size: 3rem;
+  }
+  #subtitulo {
+    font-size: 2rem;
+  }
+  #div-servico {
+    width: 250px;
+  }
+  #div-servico p {
+    font-size: 1.3rem;
+  }
+  footer a {
+    font-size: 0.8rem;
+  }
 }
