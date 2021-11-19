@@ -82,8 +82,8 @@ if ($email && $assunto && $mensagem) {
   $mail->Port = 587;
 
   $mail->setFrom('dgldoge1@gmail.com');
-  $mail->addAddress('dglboy@gmail.com');
-  // $mail->addAddress('luks_2003@outlook.com');
+  //$mail->addAddress('dglboy@gmail.com');
+  $mail->addAddress('luks_2003@outlook.com');
 
   $mail->isHTML(true);
   $mail->Subject = $assunto;
