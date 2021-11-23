@@ -21,7 +21,12 @@ session_start();
 
 <body>
 	<div class="inicio">
+		<div class="voltar">
+			<a href="index.html">
+		<i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
 		<h1> Solicite seu orçamento </h1>
+		</div>
+		
 
 			<div class="div-tc">
 				<h2>NÃO PERCA TEMPO!</h2>

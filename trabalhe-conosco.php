@@ -21,7 +21,11 @@ session_start();
 
 <body>
 	<div class="inicio">
-		<h1> TRABALHE CONOSCO</h1>
+		
+	<div class="voltar">
+			<a href="index.html">
+		<i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
+		<h1> TRABALHE CONOSCO</h1></div>
 		<div class="div-tc">
 			<h2>Faça Parte da Nossa Equipe</h2>
 			<font class="tc">
