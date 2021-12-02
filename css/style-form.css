@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  overflow-X: hidden;
+  overflow-x: hidden;
   font-family: robot slab;
   background-color: rgb(255, 255, 255);
 }
@@ -12,7 +12,7 @@ body {
   height: 600px;
   text-align: left;
 }
-.inicio .voltar{
+.inicio .voltar {
   width: 100%;
   height: 100px;
   background-color: rgb(240, 188, 76);
@@ -21,12 +21,12 @@ body {
   padding-top: 10px;
   font-family: roboto slab;
 }
-.voltar i{
-text-align: left;
-width: 20px;
-padding: 10px;
+.voltar i {
+  text-align: left;
+  width: 20px;
+  padding: 10px;
 }
-.voltar a{
+.voltar a {
   text-decoration: none;
   color: black;
 }
@@ -39,19 +39,19 @@ h1 {
   margin: auto;
   font-size: 3rem;
 }
-.div-tc{
+.div-tc {
   width: 60%;
   text-align: center;
   margin: auto;
   box-shadow: 0px 0px 5px #afadadee inset;
-  padding:20px;
+  padding: 20px;
   border-radius: 5px;
   margin-top: 10px;
 }
-h2{
+h2 {
   font-size: 3rem;
 }
-.tc{
+.tc {
   font-size: 1.8rem;
 }
 .cor {
@@ -166,39 +166,41 @@ iframe {
   text-align: center;
 }
 
-.file{
+.file {
   width: 350px;
   font-size: 1.2rem;
   border-radius: 5px;
   background-color: wheat;
 }
-#cur{
+#cur {
   padding-bottom: 10px;
 }
 
 @media screen and (max-device-width: 450px) {
-  .inicio h1{
+  .inicio h1 {
     font-size: 2rem;
   }
-  .div-tc{
+  .div-tc {
     width: 80%;
   }
-  h2{
+  h2 {
     font-size: 2rem;
   }
-  .tc{
-    font-size:1.2rem;
+  .tc {
+    font-size: 1.2rem;
   }
-  .file{
+  .file {
     width: 200px;
   }
   .cor {
     height: 200px;
   }
-  #solicite{
+  #solicite {
     padding-top: 18px;
   }
-  input, textarea, button{
+  input,
+  textarea,
+  button {
     margin-left: -25px;
   }
 }

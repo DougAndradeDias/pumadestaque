@@ -29,7 +29,6 @@ nav {
   height: 9vh;
 }
 
-
 .nav-list {
   list-style: none;
   display: flex;
@@ -57,7 +56,7 @@ nav {
   body {
     overflow-x: hidden;
   }
-  .logo{
+  .logo {
     font-size: 1.3rem;
   }
   .nav-list {
