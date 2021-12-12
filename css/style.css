@@ -69,25 +69,20 @@ body {
   flex-direction: column;
   text-align: center;
   width: 100%;
-  
 }
 .container-img {
   width: 100%;
   margin: auto;
   text-align: left;
-  
 }
 #container-img {
   width: 500px;
   height: 600px;
   margin-left: 25%;
   border-radius: 5px;
-  
-
 }
 #text-empresa {
   margin: auto;
-  
 }
 #text-empresa p {
   width: 400px;
@@ -121,7 +116,7 @@ body {
 
 .borda-servicos {
   box-shadow: 0px 0px 10px #030303 inset;
-  padding:10px;
+  padding: 10px;
 }
 #subtitulo {
   font-size: 3rem;
@@ -246,18 +241,20 @@ footer {
   text-align: center;
   margin-top: 20px;
   box-shadow: 0px 10px #ffe100 inset;
-  
 }
-h3{
+h3 {
   font-size: 1.5rem;
 }
-.parceiro{
+.parceiro {
   padding: 20px;
 }
-#agmc,#mb{
- width: 120px;
- padding: 10px;
-}#star ,#gt{
+#agmc,
+#mb {
+  width: 120px;
+  padding: 10px;
+}
+#star,
+#gt {
   width: 100px;
   padding: 10px;
 }
@@ -266,16 +263,15 @@ h3{
   margin-left: 10px;
   margin-top: 20px;
 }
-#ld-c{
+#ld-c {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-#ld{
+#ld {
   padding-top: -15px;
   width: 100px;
   margin: auto;
-
 }
 
 /*RODAPE*/
@@ -467,17 +463,20 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
   footer p {
     font-size: 1.1rem;
   }
-  .parceiro{
+  .parceiro {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  #agmc,#mb{
+  #agmc,
+  #mb {
     margin: auto;
     padding: 5px;
-   }#star ,#gt{
-     margin: auto;
-   }
+  }
+  #star,
+  #gt {
+    margin: auto;
+  }
 }
 @media screen and (max-device-width: 420px) {
   #sobre {
