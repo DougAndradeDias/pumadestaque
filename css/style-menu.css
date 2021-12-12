@@ -26,7 +26,7 @@ nav {
   align-items: center;
   font-family: Roboto slab;
   background: black;
-  height: 9vh;
+  height: 13vh;
 }
 
 .nav-list {
@@ -62,7 +62,7 @@ nav {
   .nav-list {
     z-index: 9999;
     position: absolute;
-    top: 9vh;
+    top: 13vh;
     right: 0;
     width: 50vw;
     height: 92vh;
