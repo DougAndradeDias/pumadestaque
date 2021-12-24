@@ -13,6 +13,7 @@ session_start();
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
 	<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./css/style-form.css">
+	<link rel="stylesheet" href="./css/style-menu.css">
 	<meta charset="utf-8">
 
 	<title>Solicite seu Orçamento</title>
@@ -20,10 +21,26 @@ session_start();
 </head>
 
 <body>
+
+	<header>
+		<nav>
+			<a href="index.html" class="logo">PUMA - Segurança</a>
+			<div class="mobile-menu">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-list">
+				<li><a href="index.html#sobre">Sobre</a></li>
+				<li><a href="index.html#servicos">Serviços</a></li>
+				<li><a href="solicite-orcamento.php">Orçamento</a></li>
+				<li><a href="trabalhe-conosco.php">Vagas</a></li>
+			</ul>
+		</nav>
+	</header>
+
 	<div class="inicio">
 		<div class="voltar">
-			<a href="index.html">
-				<i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
 			<h1> Solicite seu orçamento </h1>
 		</div>
 
@@ -95,6 +112,7 @@ session_start();
 	</div><br><br>
 
 	<script src="./js/formValidation.js"></script>
+	<script src="./js/mobile-navbar.js"></script>
 </body>
 
 </html>
