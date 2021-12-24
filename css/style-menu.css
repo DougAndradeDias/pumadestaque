@@ -7,17 +7,25 @@ a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 1;
+  color: rgb(255, 255, 53);
 }
 
 .logo {
   font-size: 2rem;
-  text-transform: uppercase;
   letter-spacing: 4px;
+}
+.logo img {
+  width: 130px;
+  margin-top: 30px;
+  cursor: pointer;
+  vertical-align: initial;
 }
 
 nav {
@@ -26,12 +34,14 @@ nav {
   align-items: center;
   font-family: Roboto slab;
   background: black;
-  height: 13vh;
+  height: 15vh;
 }
 
 .nav-list {
   list-style: none;
   display: flex;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
 }
 
 .nav-list li {
@@ -62,7 +72,7 @@ nav {
   .nav-list {
     z-index: 9999;
     position: absolute;
-    top: 13vh;
+    top: 15vh;
     right: 0;
     width: 50vw;
     height: 92vh;

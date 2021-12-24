@@ -107,7 +107,7 @@ if ($email && $assunto && $mensagem) {
 
     $mail->setFrom($userName);
     $mail->addAddress('dglboy@gmail.com');
-    // $mail->addAddress('luks_2003@outlook.com');
+    $mail->addAddress('luks_2003@outlook.com');
 
     $mail->isHTML(true);
     $mail->Subject = $assunto;

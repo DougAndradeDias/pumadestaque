@@ -55,8 +55,6 @@ h2 {
   font-size: 1.8rem;
 }
 .cor {
-  width: 90%;
-  height: 90vh;
   margin-top: 10px;
   margin-bottom: auto;
   margin-right: auto;
@@ -67,15 +65,6 @@ h2 {
   background-color: #f7f4c4ee;
   box-shadow: 0px 0px 10px #cabd02ee inset;
   padding: 10px;
-}
-#login p {
-  text-align: center;
-}
-#login {
-  margin-right: 20%;
-  width: 50%;
-  margin-left: 20px;
-  margin-top: 40px;
 }
 
 #nome-login {
@@ -111,15 +100,6 @@ p {
   font-family: Roboto slab;
   padding-top: 20px;
 }
-textarea {
-  width: 100%;
-  height: 10vh;
-  border-radius: 10px;
-  resize: none;
-  border: none;
-  font-size: 1rem;
-  font-family: roboto slab;
-}
 #mensagem {
   font-size: 20px;
   margin-bottom: -10px;
@@ -151,13 +131,6 @@ textarea {
   background: white;
 }
 
-#maps {
-  width: 50%;
-  margin-left: -80px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 30px;
-}
 iframe {
   border-radius: 10px;
 }
@@ -192,53 +165,28 @@ iframe {
   .file {
     width: 200px;
   }
-  .cor {
-    height: 200px;
-  }
   #solicite {
     padding-top: 18px;
-  }
-  input,
-  textarea,
-  button {
-    margin-left: -25px;
   }
 }
 @media screen and (max-device-width: 767px) {
   .cor {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 20px;
-    height: 90vh;
-    padding: 10px;
-  }
-  #login {
-    text-align: center;
-    margin: auto;
   }
   h1 {
     text-align: center;
     margin-top: 0;
   }
-  #nome-login {
-    width: 200px;
-  }
   #solicite {
     width: 200px;
   }
-  #maps {
+  .maps {
     display: none;
-  }
-  textarea {
-    width: 200px;
   }
 }
 
 @media screen and (max-device-width: 1440px) {
-  #login {
-    margin-top: 5px;
-  }
   iframe {
     width: 400px;
     height: 300px;
@@ -246,9 +194,6 @@ iframe {
 }
 
 @media screen and (max-device-width: 1024px) {
-  #login {
-    margin-top: 10px;
-  }
   #local {
     font-size: 1rem;
   }
