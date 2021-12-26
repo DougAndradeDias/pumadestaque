@@ -4,7 +4,7 @@
 }
 body {
   overflow-x: hidden;
-  font-family: robot slab;
+  font-family: 'Nunito', sans-serif;
   background-color: rgb(255, 255, 255);
 }
 .inicio {
@@ -19,7 +19,7 @@ body {
   margin-top: 0;
   display: flex;
   padding-top: 10px;
-  font-family: roboto slab;
+  font-family: 'Nunito', sans-serif;
 }
 .voltar i {
   text-align: left;
@@ -77,7 +77,7 @@ h2 {
   border-left: 0;
   border-right: 0;
   font-size: 1rem;
-  font-family: roboto Slab;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   padding-top: 40px;
 }
@@ -91,13 +91,13 @@ h2 {
   border-left: 0;
   border-right: 0;
   font-size: 1rem;
-  font-family: roboto Slab;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   padding-top: 20px;
 }
 p {
   font-size: 20px;
-  font-family: Roboto slab;
+  font-family: 'Nunito', sans-serif;
   padding-top: 20px;
 }
 #mensagem {
