@@ -56,6 +56,7 @@ body {
 .img-empresa {
   background-color: transparent;
   border: 0;
+  max-width: 60%;
 }
 #empresa {
   display: flex;

@@ -45,36 +45,36 @@ session_start();
 			<h1> TRABALHE CONOSCO</h1>
 		</div>
 
-		<div class="div-tc">
+		<div class="div-tc container mt-3">
 			<h2>Faça Parte da Nossa Equipe</h2>
 			<font class="tc">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias
+				Venha fazer parte da nossa equipe repleta de profissionais cuidadosos e dedicados,
+				você sera mais que bem-vindo.
+				Atuamos no Alto Tietê prestando serviços de controle de acesso
+				(portaria) e fazemos monitoramento 24 horas em parceria com a
+				empresa STAR, ambas com sede em Suzano. Fazemos toda a
+				conservação, zeladoria e manutenção das áreas dos condomínios.
 			</font>
 		</div>
 
-		<form action="./php/enviar-trabalhe-conosco.php" method="post" onsubmit="return checkForm()" enctype="multipart/form-data" class="container-lg">
+		<form action="./php/enviar-trabalhe-conosco.php" method="post" onsubmit="return checkForm()" enctype="multipart/form-data" class="container-lg mt-5">
 
 			<div class="cor">
 				<div class="container mt-3">
 					<div class="mb-3">
-						<label for="nome" class="form-label">* Nome</label>
+						<label for="nome" class="form-label fs-5">* Nome</label>
 						<input type="text" class="form-control required" id="nome " name="nome" autocomplete="off"><br>
 					</div>
 					<div class="mb-3">
-						<label for="email" class="form-label">* Email</label>
+						<label for="email" class="form-label fs-5">* Email</label>
 						<input type="email mail" class="form-control required" id="email " name="email" autocomplete="off"><br>
 					</div>
 					<div class="mb-3">
-						<label for="telefone" class="form-label required">* Telefone</label>
-						<input type="tel" class="form-control" id="telefone " name="telefone" autocomplete="off"><br>
+						<label for="telefone" class="form-label fs-5">* Telefone</label>
+						<input type="tel" class="form-control required" id="telefone " name="telefone" autocomplete="off"><br>
 					</div>
 					<div class="mb-3">
-						<label for="formFile" class="form-label">Envie arquivo .pdf</label>
+						<label for="formFile" class="form-label fs-5">* Envie arquivo .pdf</label>
 						<input class="form-control required" type="file" id="formFile" name="curriculo" accept=".pdf">
 					</div>
 
@@ -83,9 +83,9 @@ session_start();
 					<div>
 						<?php
 						if (isset($_SESSION['sendEmail'])) {
-							echo ("<p>Recebemos o seu email, aguarde nosso contato</p>");
+							echo ("<p class='form-label fs-5'>Recebemos o seu email, aguarde nosso contato</p>");
 						} else if (isset($_SESSION['noSendEmail'])) {
-							echo ("<p>Preecha todos os campos obrigatorios de forma correta</p>");
+							echo ("<p class='form-label fs-5'>Preecha todos os campos obrigatorios de forma correta</p>");
 						}
 						session_destroy();
 						?>
@@ -94,13 +94,13 @@ session_start();
 		</form>
 
 		<div class="container maps">
-			<p id="local">
+			<p id="local" class="fs-5">
 				<i class="fa fa-map-marker fa-3x " aria-hidden="true"></i><br>
 				R. Gen. Francisco Glicério, 1561 <br>Suzano, São Paulo<br>
 				Sala 1, 1°Andar
 			</p>
 
-			<p id="local">
+			<p id="local" class="fs-5">
 				<i class="fa fa-phone fa-3x" aria-hidden="true"></i></i><br>
 				Whatsapp ou Telefone <br>(11) 95454-5454<br>
 			</p>

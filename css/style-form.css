@@ -21,15 +21,6 @@ body {
   padding-top: 10px;
   font-family: 'Nunito', sans-serif;
 }
-.voltar i {
-  text-align: left;
-  width: 20px;
-  padding: 10px;
-}
-.voltar a {
-  text-decoration: none;
-  color: black;
-}
 h1 {
   text-align: center;
   margin-top: 20px;
@@ -40,13 +31,10 @@ h1 {
   font-size: 3rem;
 }
 .div-tc {
-  width: 60%;
   text-align: center;
-  margin: auto;
   box-shadow: 0px 0px 5px #afadadee inset;
   padding: 20px;
   border-radius: 5px;
-  margin-top: 10px;
 }
 h2 {
   font-size: 3rem;
@@ -55,65 +43,21 @@ h2 {
   font-size: 1.8rem;
 }
 .cor {
-  margin-top: 10px;
-  margin-bottom: auto;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
   border-radius: 10px;
   display: flex;
   background-color: #f7f4c4ee;
   box-shadow: 0px 0px 10px #cabd02ee inset;
   padding: 10px;
-}
-
-#nome-login {
-  outline: none;
-  width: 100%;
-  color: black;
-  background: transparent;
-  border-color: black;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  font-size: 1rem;
   font-family: 'Nunito', sans-serif;
-  text-align: center;
-  padding-top: 40px;
-}
-#solicite {
-  outline: none;
-  width: 100%;
-  color: black;
-  background: transparent;
-  border-color: black;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  font-size: 1rem;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  padding-top: 20px;
 }
 p {
-  font-size: 20px;
   font-family: 'Nunito', sans-serif;
   padding-top: 20px;
 }
-#mensagem {
-  font-size: 20px;
-  margin-bottom: -10px;
-  margin-top: -10px;
+textarea {
+  resize: none;
 }
-#nome-login::placeholder {
-  color: black;
-  font-size: 1rem;
-}
-#solicite::placeholder {
-  color: black;
-  font-size: 1rem;
-}
-
 .button-login {
   border-radius: 10px;
   border-color: black;
@@ -124,7 +68,6 @@ p {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  margin-top: 10px;
 }
 
 .button-login:hover {
@@ -145,9 +88,6 @@ iframe {
   border-radius: 5px;
   background-color: wheat;
 }
-#cur {
-  padding-bottom: 10px;
-}
 
 @media screen and (max-device-width: 450px) {
   .inicio h1 {
@@ -165,9 +105,6 @@ iframe {
   .file {
     width: 200px;
   }
-  #solicite {
-    padding-top: 18px;
-  }
 }
 @media screen and (max-device-width: 767px) {
   .cor {
@@ -177,9 +114,6 @@ iframe {
   h1 {
     text-align: center;
     margin-top: 0;
-  }
-  #solicite {
-    width: 200px;
   }
   .maps {
     display: none;

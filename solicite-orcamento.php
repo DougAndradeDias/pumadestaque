@@ -42,43 +42,44 @@ session_start();
 
 	<div class="inicio">
 		<div class="voltar">
-			<h1> Solicite seu orçamento </h1>
+			<h1> SOLICITE SEU ORÇAMENTO </h1>
 		</div>
 
-		<div class="div-tc">
+		<div class="div-tc container mt-3">
 			<h2>NÃO PERCA TEMPO!</h2>
 			<font class="tc">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-				placeat odit, accusamus ducimus voluptatum alias
+				Venha fazer parte da nossa equipe repleta de profissionais cuidadosos,
+				você sera mais que bem-vindo.
+				Atuamos no Alto Tietê prestando serviços de controle de acesso
+				(portaria) e fazemos monitoramento 24 horas em parceria com a
+				empresa STAR, ambas com sede em Suzano. Fazemos toda a
+				conservação, zeladoria e manutenção das áreas dos condomínios.
+
 			</font>
 		</div>
 
-		<form action="./php/enviar-solicite-orcamento.php" method="post" onsubmit="return checkForm()" class="container-lg">
+		<form action="./php/enviar-solicite-orcamento.php" method="post" onsubmit="return checkForm()" class="container-lg mt-5">
 
 			<div class="cor">
 				<div class="container mt-3">
-					<div class="mb-3">
-						<label for="nome" class="form-label">Nome</label>
+					<div>
+						<label for="nome" class="form-label fs-5">Nome</label>
 						<input type="text" class="form-control" id="nome " name="nome" autocomplete="off"><br>
 					</div>
-					<div class="mb-3">
-						<label for="email" class="form-label">* Email</label>
+					<div>
+						<label for="email" class="form-label fs-5">* Email</label>
 						<input type="email mail" class="form-control required" id="email " name="email" autocomplete="off"><br>
 					</div>
-					<div class="mb-3">
-						<label for="telefone" class="form-label">Telefone</label>
+					<div>
+						<label for="telefone" class="form-label fs-5">Telefone</label>
 						<input type="tel" class="form-control" id="telefone " name="telefone" autocomplete="off"><br>
 					</div>
-					<div class="mb-3">
-						<label for="assunto" class="form-label">* Assunto</label>
+					<div>
+						<label for="assunto" class="form-label fs-5">* Assunto</label>
 						<input type="subject" class="form-control required" id="assunto " name="assunto" autocomplete="off"><br>
 					</div>
 					<div class="form-floating">
-						<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="mensagem"></textarea>
+						<textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea" name="mensagem"></textarea>
 						<label for="floatingTextarea">* Mensagem</label>
 					</div>
 					<button type="submit" class="button-login btn mb-3">Enviar</button>
@@ -97,7 +98,7 @@ session_start();
 		</form>
 
 		<div class="container maps">
-			<p id="local">
+			<p id="local" class="fs-5">
 				<i class="fa fa-map-marker fa-3x " aria-hidden="true"></i><br>
 				R. Gen. Francisco Glicério, 1561 <br>Suzano, São Paulo<br>
 				Sala 1, 1°Andar
