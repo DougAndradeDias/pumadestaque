@@ -32,7 +32,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Roboto slab;
+  font-family: 'Nunito', sans-serif;
   background: black;
   height: 15vh;
 }
