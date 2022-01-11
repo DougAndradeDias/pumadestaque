@@ -15,7 +15,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  font-family: Roboto Slab;
+  font-family: 'Nunito', sans-serif;
 }
 
 .inicio {
@@ -27,7 +27,7 @@ body {
 /*SLIDE*/
 
 #slider {
-  margin-top: -105px;
+  margin-top: -97px;
   width: 100%;
   height: 100%;
   position: relative;
@@ -49,59 +49,40 @@ body {
 
 #sobre {
   text-align: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #f2ffff;
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 0px 15px #030303 inset;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px #9b9a9a inset;
 }
-#empresa img {
-  width: 200px;
-  text-align: center;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
+.img-empresa {
+  background-color: transparent;
+  border: 0;
+  max-width: 80%;
 }
 #empresa {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 100%;
-  
-}
-.container-img {
-  width: 100%;
-  margin: auto;
-  text-align: left;
-  
 }
 #container-img {
   width: 500px;
   height: 600px;
-  margin-left: 25%;
   border-radius: 5px;
-  
-
 }
 #text-empresa {
   margin: auto;
-  
 }
 #text-empresa p {
   width: 400px;
   font-size: 2rem;
-  font-family: roboto slab;
+  font-family: 'Nunito', sans-serif;
   line-height: 30px;
   text-align: initial;
 }
-#img-empresa {
-  text-align: center;
-}
 #font-conheca {
   font-size: 5rem;
-  font-family: roboto slab;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 20px;
 }
 
 /*Fim do Sobre*/
@@ -116,20 +97,20 @@ body {
 
 .servicos h2 {
   font-size: 5rem;
-  font-family: roboto slab;
+  font-family: 'Nunito', sans-serif;
 }
 
 .borda-servicos {
   box-shadow: 0px 0px 10px #030303 inset;
-  padding:10px;
+  padding: 10px;
 }
 #subtitulo {
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #cccc00;
   text-align: center;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  font-family: roboto slab;
+  font-family: 'Nunito', sans-serif;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -246,18 +227,25 @@ footer {
   text-align: center;
   margin-top: 20px;
   box-shadow: 0px 10px #ffe100 inset;
-  
 }
-h3{
+h3 {
   font-size: 1.5rem;
+  color: #d0d0d0;
 }
-.parceiro{
+.parceiro {
   padding: 20px;
 }
-#agmc,#mb{
- width: 120px;
- padding: 10px;
-}#star ,#gt{
+#agmc,
+#mb {
+  width: 120px;
+  padding: 10px;
+}
+#star,
+#gt {
+  width: 100px;
+  padding: 10px;
+}
+#arupati{
   width: 100px;
   padding: 10px;
 }
@@ -266,16 +254,31 @@ h3{
   margin-left: 10px;
   margin-top: 20px;
 }
-#ld-c{
+#ld-c {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-#ld{
+#ld {
   padding-top: -15px;
   width: 100px;
   margin: auto;
+}
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #ffe100;
+  border-radius: 25px;
+  z-index: 9999;
+  border-color: #ffe100;
+  outline: transparent;
+}
+
+#btn-back-to-top i {
+  color: #292929;
 }
 
 /*RODAPE*/
@@ -306,11 +309,8 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
   .servicos p {
     font-size: 1.5rem;
   }
-  #sobre {
-    height: 110vh;
-  }
   #subtitulo {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   #testimonials blockquote p {
     font-size: 2rem;
@@ -323,9 +323,8 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
   }
 }
 @media screen and (max-device-width: 1024px) {
-  #sobre {
-    width: 100%;
-    height: 700px;
+  #text-empresa p {
+    font-size: 1.5rem;
   }
 
   #subtitle {
@@ -337,9 +336,9 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     margin: 5px;
   }
   #container-img {
-    width: 400px;
-    height: 500px;
-    margin-left: 15%;
+    width: 490px;
+    height: 590px;
+    margin-left: 8%;
     border-radius: 5px;
   }
 
@@ -350,10 +349,6 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
 
 /*Responsivo 600px*/
 @media screen and (max-device-width: 600px) {
-  #sobre {
-    width: 100%;
-    height: 1000px;
-  }
   .servicos {
     width: 100%;
     text-align: center;
@@ -387,7 +382,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     font-size: 2rem;
   }
   .container-img {
-    display: none;
+    display: none !important;
   }
   #text-empresa p {
     width: 500px;
@@ -412,10 +407,6 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     width: 100%;
   }
 
-  #sobre {
-    width: 100%;
-    height: 700px;
-  }
   #text-empresa {
     width: 100%;
   }
@@ -432,7 +423,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     margin: auto;
   }
   #subtitulo {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
   #div-servico {
     width: 320px;
@@ -467,23 +458,22 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
   footer p {
     font-size: 1.1rem;
   }
-  .parceiro{
+  .parceiro {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  #agmc,#mb{
+  #agmc,
+  #mb {
     margin: auto;
     padding: 5px;
-   }#star ,#gt{
-     margin: auto;
-   }
+  }
+  #star,
+  #gt {
+    margin: auto;
+  }
 }
 @media screen and (max-device-width: 420px) {
-  #sobre {
-    width: 100%;
-    height: 900px;
-  }
   #empresa {
     flex-direction: column;
     text-align: center;
@@ -498,7 +488,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     text-align: center;
   }
   #subtitulo {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #text-empresa p {
     margin: auto;
@@ -507,18 +497,13 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     text-align: center;
   }
   .container-img {
-    display: none;
+    display: none !important;
   }
   #div-servico {
     width: 400px;
   }
 }
 @media screen and (max-device-width: 400px) {
-  #sobre {
-    width: 100%;
-    height: 800px;
-  }
-
   #font-conheca {
     font-size: 3.5rem;
     margin: 0;
@@ -548,7 +533,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
   }
 
   #subtitulo {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   footer {
@@ -574,9 +559,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
   #text-empresa p {
     width: 300px;
   }
-  #sobre {
-    height: 800px;
-  }
+
   #testimonials blockquote {
     width: 80%;
   }
@@ -596,7 +579,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     font-size: 1.3rem;
   }
   .servicos #subtitulo {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
   }
 
   footer p {
@@ -604,11 +587,6 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
   }
 }
 @media screen and (max-device-width: 290px) {
-  #sobre {
-    width: 100%;
-    height: 1000px;
-    margin: auto;
-  }
   #empresa {
     flex-direction: column;
     width: 100%;
@@ -632,7 +610,7 @@ mas é só criar o button e dar os nomes que entra de boa as propriedades*/
     font-size: 3rem;
   }
   #subtitulo {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   #div-servico {
     width: 250px;
