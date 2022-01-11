@@ -105,7 +105,7 @@ body {
   padding: 10px;
 }
 #subtitulo {
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #cccc00;
   text-align: center;
   -webkit-text-stroke-width: 1px;
@@ -242,6 +242,10 @@ h3 {
 }
 #star,
 #gt {
+  width: 100px;
+  padding: 10px;
+}
+#arupati{
   width: 100px;
   padding: 10px;
 }
